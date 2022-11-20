@@ -28,9 +28,7 @@ describe("Teste End-to-End", () => {
       cy.wait(2000);
     });
     cy.get(".swal-text").contains("Sua compra foi realizada com sucesso");
-    // Fecha o pop-up com da compra
+    // Fecha o pop-up da compra
     cy.get(".swal-button").click();
   });   
-
-
 });
